@@ -1,0 +1,78 @@
+    #side-nav { width: 299px; height: 100%; position: relative; overflow: hidden; float: left; }
+
+    #logo-spacer { display: block; width: 299px; height: 100px; margin-bottom: 1px; background: url('logo-1.jpg'); background-color: #000; background-origin: 50% 50%; }
+
+    .side-content-spacer { display: block; width: 297px; height: 80px; border: 1px solid #091d3a; background: #0a2249; margin-bottom: 1px; }
+    
+    .nav-spacer { display: block; width: 298px; height: 28px; background: url('bg-1-15.jpg') repeat; overflow: hidden; position: relative; margin-bottom: 1px; border: 1px solid #090909; }
+
+    #nav-link-1, #nav-link-2, #nav-link-3, #nav-link-4 { display: block; overflow: hidden; position: relative; }
+
+    #nav-menu-1, #nav-menu-2, #nav-menu-3, #nav-menu-4 { display: block; width: 300px; height: 30px; overflow: none; position: absolute; z-index: 99;
+         
+                            -webkit-transition: all 0.3s ease-in-out;
+                            -moz-transition: all 0.3s ease-in-out;
+                            transition: all 0.3s ease-in-out;
+        
+                }
+
+    #nav-menu-1:hover   {   cursor: pointer; color: #ef5252;
+        
+                            -webkit-transform: translateX(-25px);
+                            -moz-transform: translateX(-25px);
+                            transform: translateX(-25px);
+        
+                        }
+    
+    #nav-menu-2:hover   {   cursor: pointer; color: #ef5252;
+        
+                            -webkit-transform: translateX(-25px);
+                            -moz-transform: translateX(-25px);
+                            transform: translateX(-25px);
+        
+                        }
+
+    #nav-menu-3:hover   {   cursor: pointer; color: #ef5252;
+        
+                            -webkit-transform: translateX(-25px);
+                            -moz-transform: translateX(-25px);
+                            transform: translateX(-25px);
+        
+                        }
+
+    #nav-menu-4:hover   {   cursor: pointer; color: #ef5252;
+        
+                            -webkit-transform: translateX(-25px);
+                            -moz-transform: translateX(-25px);
+                            transform: translateX(-25px);
+        
+                        }
+
+    #nav-link-1:hover #text-shift-1 { cursor: pointer; color: #ef5252; }
+    #nav-link-2:hover #text-shift-2 { cursor: pointer; color: #ef5252; }
+    #nav-link-3:hover #text-shift-3 { cursor: pointer; color: #ef5252; }
+    #nav-link-4:hover #text-shift-4 { cursor: pointer; color: #ef5252; }
+
+    #text-shift-1, #text-shift-2, #text-shift-3, #text-shift-4 { display: block; overflow: none; position: absolute; top: 0px; line-height: 30px; pointer-events: none; }
+    
+    .nav-text { font-family: 'Verdana'; font-size: 8pt; width: 272px; line-height: 28px; text-align: center; color: #fff; font-weight: bold; margin-left: 14px; z-index: 99; }
+
+    .nav-arrow { width: 20px; height: 28px; background-color: #ef5252; top: 0px; position: absolute; left: 303px; margin-bottom: 1px; border: 1px solid #ef4343; outline: 1px solid #fff; }
+
+    .nav-arrow-tri { width: 0; height: 0; border-top: 4px solid transparent; border-left: 4px solid #ffffff; border-bottom: 4px solid transparent; position: absolute; top: 10px; left: 8px; }
+    
+    /* Animations Lets be real you're gonna use jQuery*/
+    
+    @-webkit-keyframes nav-slide{
+        0%, 100% { left: 0px; }
+        50% { left: -50px; }
+    }
+    @-moz-keyframes nav-slide{
+        0%, 100% { left: 0px; }
+        50% { left: -50px; }
+    }
+    @keyframes nav-slide{
+        0%, 100% { left: 0px; }
+        50% { left: -50px; }
+    }
+    
