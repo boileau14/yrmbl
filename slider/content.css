@@ -8,13 +8,33 @@
 
 #spacer-results { width: 718px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; font-weight: bold; text-align: center; line-height: 30px;}
 
-.results-content { width: 716px; float: right; height: 110px; display: block; position: relative; margin-bottom: 2px; }
+.results-content { width: 716px; float: right; height: 110px; display: block; position: relative; margin-bottom: 2px; overflow: none; }
 
 .results-box:first-child { margin-left: -2px; }
 
 .results-box:last-child { width: 176px; margin-right: 0px; }
 
-.results-box { width: 177px; height: 110px; display: inline-block; background: #e5e5e5; border: 1px solid #c5c5c5; float: left; padding: 0; margin-right: 1px; }
+.results-box { width: 177px; height: 110px; display: inline-block; background: #e5e5e5; border: 1px solid #c5c5c5; float: left; padding: 0; margin-right: 1px; overflow: none; }
+
+.results-box img { width: 80px; height: 40px; display: block; position: relative; }
+
+.results-left { float: left; width: 80px; height: 100px; margin-top: 5px; margin-left: 5px; }
+
+.results-left span { text-align: center; display: block; width: 80px; font-size: 7pt; font-family: 'Verdana'; line-height: 10pt; font-weight: bold; }
+
+.results-scorebox { width: 70px; height: 75px; display: block; float: right; position: relative; font-size: 9pt; font-family: 'Verdana'; line-height: 10pt; right: 5px; top: 0px; }
+
+.results-scorebox td { background-color: #c9c9c9; width: 20px; height: 16px; text-align: center; font-weight: bold; line-height: 16px; }
+
+td.blue { background-color: #0a2249; color: #fff; font-size: 8pt; }
+td.final { font-size: 6pt; background-color: #0a2249; color: #fff; }
+td.blank { background: none;}
+
+p.results-date { color: #000; position: relative; top: 0px; right: 10px; font-size: 6pt; font-family: 'Verdana'; float: right; display: block; height: 16px; line-height: 16px; }
+
+p.results-youtube {}
+
+p.results-details { position: relative; width: 80px; text-align: center; line-height: 16px; font-size: 6pt; height: 16px; font-family: 'Verdana'; bottom: 0px; right: 4px; display: block; float: right; background-color: #214775; color: #fff; }
 
 #content-spacer { width: 719px; position: relative; float: right; display: block; display: none; overflow: hidden; }
 
