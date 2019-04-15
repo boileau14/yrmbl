@@ -22,7 +22,7 @@
 
 .results-left span { text-align: center; display: block; width: 80px; font-size: 7pt; font-family: 'Verdana'; line-height: 10pt; font-weight: bold; }
 
-.results-scorebox { width: 70px; height: 75px; display: block; float: right; position: relative; font-size: 9pt; font-family: 'Verdana'; line-height: 10pt; right: 5px; top: 0px; }
+.results-scorebox { width: 70px; height: 75px; display: block; float: right; position: relative; font-size: 9pt; font-family: 'Verdana'; line-height: 10pt; right: 5px; top: 2px; }
 
 .results-scorebox td { background-color: #c9c9c9; width: 20px; height: 16px; text-align: center; font-weight: bold; line-height: 16px; }
 
@@ -30,7 +30,7 @@ td.blue { background-color: #0a2249; color: #fff; font-size: 8pt; }
 td.final { font-size: 6pt; background-color: #0a2249; color: #fff; }
 td.blank { background: none;}
 
-p.results-date { color: #000; position: relative; top: 0px; right: 10px; font-size: 6pt; font-family: 'Verdana'; float: right; display: block; height: 16px; line-height: 16px; }
+p.results-date { color: #000; position: relative; top: 3px; right: 10px; font-size: 6pt; font-family: 'Verdana'; float: right; display: block; height: 12px; line-height: 12px; }
 
 p.results-youtube {}
 
