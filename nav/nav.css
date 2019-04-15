@@ -1,14 +1,14 @@
-        #side-nav { width: 299px; height: 100%; position: relative; overflow: hidden; float: left; }
+    #side-nav { width: 299px; height: 100%; position: relative; overflow: hidden; float: left; }
 
     #logo-spacer { display: block; width: 299px; height: 100px; margin-bottom: 1px; background: url('logo-1.jpg'); background-color: #000; background-origin: 50% 50%; }
 
-    .side-content-spacer { display: block; width: 297px; height: 80px; border: 1px solid #091d3a; background: #0a2249; margin-bottom: 1px; }
+    .side-content-spacer { display: block; width: 297px; height: 80px; border: 1px solid #091d3a; background: #0a2249; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; line-height: 10pt;}
     
     .nav-spacer { display: block; width: 298px; height: 28px; background: url('bg-1-15.jpg') repeat; overflow: hidden; position: relative; margin-bottom: 1px; border: 1px solid #090909; }
 
-    #nav-link-1, #nav-link-2, #nav-link-3, #nav-link-4, #nav-standings-spacer, #nav-weather-spacer { display: block; overflow: hidden; position: relative; }
+    #nav-link-1, #nav-link-2, #nav-link-3, #nav-link-4, #nav-schedule-spacer, #nav-weather-spacer { display: block; overflow: hidden; position: relative; }
 
-    #nav-menu-1, #nav-menu-2, #nav-menu-3, #nav-menu-4, #nav-standings, #nav-weather { display: block; width: 300px; height: 30px; overflow: none; position: absolute; z-index: 99;
+    #nav-menu-1, #nav-menu-2, #nav-menu-3, #nav-menu-4, #nav-schedule, #nav-weather { display: block; width: 300px; height: 30px; overflow: none; position: absolute; z-index: 99;
          
                             -webkit-transition: all 0.3s ease-in-out;
                             -moz-transition: all 0.3s ease-in-out;
@@ -47,13 +47,15 @@
                             transform: translateX(-25px);
         
                         }
+    
 
-    #nav-standings:hover     {   cursor: pointer; color: #ef5252;
-        
+
+    #nav-schedule:hover     {   cursor: pointer; color: #ef5252;
+        /* Replaced with JS 
                                         -webkit-transform: translateX(-25px);
                                         -moz-transform: translateX(-25px);
                                         transform: translateX(-25px);
-        
+        */
                                     }
 
     #nav-weather:hover     {   cursor: pointer; color: #ef5252;
@@ -68,10 +70,10 @@
     #nav-link-2:hover #text-shift-2 { cursor: pointer; color: #ef5252; }
     #nav-link-3:hover #text-shift-3 { cursor: pointer; color: #ef5252; }
     #nav-link-4:hover #text-shift-4 { cursor: pointer; color: #ef5252; }
-    #nav-standings-spacer:hover #standings-shift { cursor: pointer; color: #ffffff; }
+    #nav-schedule-spacer:hover #schedule-shift { cursor: pointer; color: #ffffff; }
     #nav-weather-spacer:hover #weather-shift { cursor: pointer; color: #ffffff; }
 
-    #text-shift-1, #text-shift-2, #text-shift-3, #text-shift-4, #standings-shift, #weather-shift { display: block; overflow: none; position: absolute; top: 0px; line-height: 30px; pointer-events: none; }
+    #text-shift-1, #text-shift-2, #text-shift-3, #text-shift-4, #schedule-shift, #weather-shift { display: block; overflow: none; position: absolute; top: 0px; line-height: 30px; pointer-events: none; }
     
     .nav-text { font-family: 'Verdana'; font-size: 8pt; width: 272px; line-height: 28px; text-align: center; color: #fff; font-weight: bold; margin-left: 14px; z-index: 99; }
 
@@ -81,4 +83,8 @@
 
     .nav-arrow-tri { width: 0; height: 0; border-top: 4px solid transparent; border-left: 4px solid #ffffff; border-bottom: 4px solid transparent; position: absolute; top: 10px; left: 8px; }
 
-    .nav-arrow-tri-blue { width: 0; height: 0; border-top: 4px solid #ffffff; border-left: 4px solid transparent; border-right: 4px solid transparent; position: absolute; top: 12px; left: 5px; }
+    .nav-arrow-tri-down { width: 0; height: 0; border-top: 4px solid #ffffff; border-left: 4px solid transparent; border-right: 4px solid transparent; position: absolute; top: 12px; left: 5px; }
+
+    .display-none { display: none; }
+
+    span {}
