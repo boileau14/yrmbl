@@ -1,6 +1,6 @@
-#spacer-standings { width: 359px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: left; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; margin-left: 1px; font-weight: bold; text-align: center; line-height: 30px; }
+#spacer-standings { width: 359px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; margin-left: 1px; font-weight: bold; text-align: center; line-height: 30px; }
 
-.standings-content { width: 357px; float: left; height: 140px; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #214775; border: 1px solid #1a3b5b;  }
+.standings-content { width: 357px; float: right; height: 140px; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #214775; border: 1px solid #1a3b5b;  }
 
 #spacer-leaders { width: 358px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; margin-left: 1px; font-weight: bold; text-align: center; line-height: 30px; }
 
@@ -38,4 +38,38 @@ p.results-details { position: relative; width: 80px; text-align: center; line-he
 
 #content-spacer { width: 719px; position: relative; float: right; display: block; display: none; overflow: hidden; }
 
-#schedule { width: 0px; float: left; height: 300px; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #e5e5e5; border: 1px solid #c5c5c5; overflow: hidden; }
+#schedule { width: 0px; float: left; height: 100%; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #e5e5e5; border: 1px solid #c5c5c5; overflow: hidden; }
+
+.schedule-page-top { width: 716px; height: 30px; background: none; line-height: 30px; display: block; position: relative; overflow: none; }
+
+.schedule-page-month { width: 694px; height: 20px; background: #214775; border: 1px solid #1a3b5b; color: #fff; line-height: 20px; display: inline-block; position: relative; overflow: none; font-family: 'Verdana'; font-size: 8pt; font-weight: bold; left: 10px; margin-bottom: 20px; }
+
+.schedule-page-month p { display: block; margin-left: 20px; position: relative; }
+
+.schedule-page-top p { display: inline-block; position: relative; left: 6px; font-family: 'Verdana'; font-size: 8pt; font-weight: bold; }
+
+#schedule-content { width: 716px; position: relative; display: block; }
+
+.last { margin-bottom: 3px; }
+
+.schedule-page-box { float: left; display: block; width: 351px; height: 142px; position: relative; background: none; margin-left: 4px; margin-top: 4px; }
+
+.schedule-page-box-content { max-width: 200px; height: 60px; display: inline-block; position: relative; left: 80px; top: 20px; }
+
+.schedule-page-box-content-below { max-width: 200px; height: 60px; display: inline-block; position: relative; left: 80px; top: 0px; }
+
+.schedule-page-box-content img { display: inline-block; position: relative; }
+
+.schedule-page-box-content span { width: 20px; text-align: center; display: inline-block; position: relative; top: -12px; font-family: 'Verdana'; font-size: 8pt; font-weight: bold; }
+
+.schedule-page-box-away { width: 80px; height: 12px; text-align: center; display: inline-block; position: relative; font-family: 'Verdana'; font-size: 5pt; font-weight: bold; background: #0a2249; color: #fff; line-height: 12px; top: 2px; }
+
+.schedule-page-box-home { width: 80px; height: 12px; text-align: center; display: inline-block; position: relative; font-family: 'Verdana'; font-size: 5pt; font-weight: bold; background: #0a2249; color: #fff; line-height: 12px; left: 25px; top: 2px; }
+
+.schedule-page-box-date { position: relative; top: 0; right: 50px; float: right; font-family: 'Verdana'; font-size: 6pt; font-weight: bold; display: block; text-align: right; line-height: 8pt; }
+
+.schedule-page-box-details { position: relative; width: 351px; top: -30px; font-family: 'Verdana'; font-size: 7pt; font-weight: bold; display: block; text-align: center; line-height: 10pt; }
+
+.schedule-page-box-on { color: green; }
+
+.schedule-page-box-ppd { color: red; }
