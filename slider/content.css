@@ -1,10 +1,10 @@
-#spacer-standings { width: 359px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; margin-left: 1px; font-weight: bold; text-align: center; line-height: 30px; }
+#spacer-standings { width: 358px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; margin-left: 1px; font-weight: bold; text-align: center; line-height: 30px; }
 
-.standings-content { width: 357px; float: right; height: 140px; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #214775; border: 1px solid #1a3b5b;  }
+.standings-content { width: 356px; float: right; height: 140px; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #214775; border: 1px solid #1a3b5b;  }
 
-#spacer-leaders { width: 358px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; margin-left: 1px; font-weight: bold; text-align: center; line-height: 30px; }
+#spacer-leaders { width: 359px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; margin-left: 1px; font-weight: bold; text-align: center; line-height: 30px; }
 
-.leaders-content { width: 356px; float: right; height: 140px; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #214775; border: 1px solid #1a3b5b;  }
+.leaders-content { width: 357px; float: right; height: 140px; display: block; position: relative; margin-bottom: 0px; margin-left: 1px; background: #214775; border: 1px solid #1a3b5b;  }
 
 #spacer-results { width: 718px; height: 30px; display: block; background: url('../nav/bg-1-15.jpg') repeat; position: relative; float: right; overflow: hidden; margin-top: 1px; margin-bottom: 1px; color: #fff; font-family: 'Verdana'; font-size: 8pt; font-weight: bold; text-align: center; line-height: 30px;}
 
